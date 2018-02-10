@@ -1,0 +1,21 @@
+{
+  "name": "todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "feather-icons": "^4.5.0",
+    "react": "^16.2.0",
+    "react-cookie": "^2.1.2",
+    "react-dom": "^16.2.0",
+    "react-emoji-render": "^0.4.4",
+    "react-feather": "^1.0.8",
+    "react-scripts": "1.1.0",
+    "universal-cookie": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
