@@ -69,7 +69,11 @@ class Home extends Component {
 	this.setState({
 		task: '',
     	list: [...this.state.list, this.state.task]
-   });
+   }, () => {
+		const cookies = new Cookies();
+		cookies.set('todo', JSON.stringify(this.state.list), { path: '/'});
+		cookies.set('done', JSON.stringify(this.state.done), { path: '/'});
+	});
 	}
 	}
 	render() {
